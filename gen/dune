@@ -1,0 +1,5 @@
+(executable
+ (name summary)
+ (preprocess (pps ppx_deriving.show)))
+
+(ocamllex lexer)
